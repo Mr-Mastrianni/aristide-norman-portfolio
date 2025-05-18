@@ -26,40 +26,18 @@ const Hero = () => {
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
-              <h1>
-                Shaping
-                <span className="slide">
-                  <span className="wrapper">
-                    {words.map((word, index) => (
-                      <span
-                        key={index}
-                        className="flex items-center md:gap-3 gap-1 pb-2"
-                      >
-                        <img
-                          src={word.imgPath}
-                          alt="person"
-                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
-                        />
-                        <span>{word.text}</span>
-                      </span>
-                    ))}
-                  </span>
-                </span>
-              </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1 id="hero-title" className="text-4xl md:text-6xl font-bold mb-4">Aristide Norman</h1>
+              <h2 id="hero-subtitle" className="text-xl md:text-3xl mb-8">Technology Leader & DevOps Expert</h2>
+              <p id="hero-description" className="text-lg md:text-xl max-w-2xl mx-auto mb-12 text-gray-300">
+                Leading technology transformations and automating complex systems with over 20 years of experience in the financial services industry.
+              </p>
+              <div id="hero-buttons" className="flex justify-center space-x-4">
+                <a href="#experience" className="btn-primary px-6 py-3 rounded-full text-white font-medium">View Experience</a>
+                <a href="#contact" className="border border-cyan-500 px-6 py-3 rounded-full text-white font-medium hover:bg-cyan-800 hover:bg-opacity-30 transition-all">
+                  Get In Touch
+                </a>
+              </div>
             </div>
-
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
-            </p>
-
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
           </div>
         </header>
 

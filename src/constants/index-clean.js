@@ -41,34 +41,34 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png", 
+    imgPath: "/images/logos/wells-fargo-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png", 
+    imgPath: "/images/logos/aws-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png", 
+    imgPath: "/images/logos/azure-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png", 
+    imgPath: "/images/logos/docker-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png", 
+    imgPath: "/images/logos/kubernetes-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png", 
+    imgPath: "/images/logos/terraform-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png", 
+    imgPath: "/images/logos/jenkins-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png", 
+    imgPath: "/images/logos/gitlab-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png", 
+    imgPath: "/images/logos/ansible-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/linux-logo.png",
   },
 ];
 
@@ -152,41 +152,6 @@ const expCards = [
   },
 ];
 
-const testimonials = [
-  {
-    imgPath: "/images/placeholder-profile.png", // Placeholder image
-    name: "Satisfied Collaborator",
-    mentions: "@Collaborator",
-    desc: "Aristide is a visionary leader with a deep understanding of technology and its application to business challenges. His strategic insights were invaluable to our project's success."
-  },
-  {
-    imgPath: "/images/placeholder-profile.png", // Placeholder image
-    name: "Former Colleague",
-    mentions: "@ExCoWorker",
-    desc: "Working with Aristide was a fantastic experience. His ability to motivate teams and drive results is exceptional. He fosters a positive and innovative work environment."
-  }
-  // Add more testimonials as needed
-];
-
-const socialImgs = [
-  {
-    name: "LinkedIn",
-    imgPath: "/images/socials/linkedin.svg", // You'll need to add this image
-    url: "https://www.linkedin.com/in/aristidenorman/", // Placeholder URL
-  },
-  // {
-  //   name: "GitHub",
-  //   imgPath: "/images/socials/github.svg", // Add if Aristide has a GitHub
-  //   url: "#",
-  // },
-  // {
-  //   name: "Twitter",
-  //   imgPath: "/images/socials/twitter.svg", // Add if Aristide has a Twitter/X
-  //   url: "#",
-  // },
-  // Add more social links as needed
-];
-
 export {
   words,
   abilities,
@@ -195,6 +160,4 @@ export {
   navLinks,
   techStackImgs,
   expCards,
-  testimonials,
-  socialImgs,
 };

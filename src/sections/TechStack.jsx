@@ -2,9 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 import TitleHeader from "../components/TitleHeader";
-import TechIconCardExperience from "../components/models/tech_logos/TechIconCardExperience";
-import { techStackIcons } from "../constants";
-// import { techStackImgs } from "../constants";
+import { techStackImgs } from "../constants";
 
 const TechStack = () => {
   // Animate the tech cards in the skills section
@@ -43,11 +41,11 @@ const TechStack = () => {
           sub="🤝 What I Bring to the Table"
         />
         <div className="tech-grid">
-          {/* Loop through the techStackIcons array and create a component for each item. 
+          {/* Loop through the techStackImgs array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 
               card-border, tech-card, overflow-hidden, and group. The xl:rounded-full and rounded-lg 
               classes are only applied on larger screens. */}
-          {techStackIcons.map((techStackIcon) => (
+          {techStackImgs.map((techStackIcon) => (
             <div
               key={techStackIcon.name}
               className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
@@ -56,10 +54,14 @@ const TechStack = () => {
                   component is hovered. */}
               <div className="tech-card-animated-bg" />
               <div className="tech-card-content">
-                {/* The tech-icon-wrapper div contains the TechIconCardExperience component, 
-                    which renders the 3D model of the tech stack icon. */}
-                <div className="tech-icon-wrapper">
-                  <TechIconCardExperience model={techStackIcon} />
+                {/* The tech-icon-wrapper div contains the img tag, 
+                    which renders the 2D image of the tech stack icon. */}
+                <div className="tech-icon-wrapper flex-center w-full h-[200px] p-4">
+                  <img 
+                    src={techStackIcon.imgPath} 
+                    alt={techStackIcon.name} 
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
                 {/* The padding-x and w-full classes are used to add horizontal padding to the 
                     text and make it take up the full width of the component. */}
@@ -70,24 +72,6 @@ const TechStack = () => {
               </div>
             </div>
           ))}
-
-          {/* This is for the img part */}
-          {/* {techStackImgs.map((techStackIcon, index) => (
-            <div
-              key={index}
-              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
-            >
-              <div className="tech-card-animated-bg" />
-              <div className="tech-card-content">
-                <div className="tech-icon-wrapper">
-                  <img src={techStackIcon.imgPath} alt="" />
-                </div>
-                <div className="padding-x w-full">
-                  <p>{techStackIcon.name}</p>
-                </div>
-              </div>
-            </div>
-          ))} */}
         </div>
       </div>
     </div>
