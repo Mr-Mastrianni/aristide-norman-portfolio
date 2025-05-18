@@ -22,14 +22,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Leadership", imgPath: "/images/leadership.svg" },
-  { text: "Innovation", imgPath: "/images/innovation.svg" },
-  { text: "Strategy", imgPath: "/images/strategy.svg" },
-  { text: "Excellence", imgPath: "/images/excellence.svg" },
-  { text: "Leadership", imgPath: "/images/leadership.svg" },
-  { text: "Innovation", imgPath: "/images/innovation.svg" },
-  { text: "Strategy", imgPath: "/images/strategy.svg" },
-  { text: "Excellence", imgPath: "/images/excellence.svg" },
+  { text: "Leadership", imgPath: "images/leadership.svg" },
+  { text: "Innovation", imgPath: "images/innovation.svg" },
+  { text: "Strategy", imgPath: "images/strategy.svg" },
+  { text: "Excellence", imgPath: "images/excellence.svg" },
+  { text: "Leadership", imgPath: "images/leadership.svg" },
+  { text: "Innovation", imgPath: "images/innovation.svg" },
+  { text: "Strategy", imgPath: "images/strategy.svg" },
+  { text: "Excellence", imgPath: "images/excellence.svg" },
 ];
 
 const counterItems = [
@@ -41,50 +41,50 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png", 
+    imgPath: "images/logos/company-logo-1.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-2.png", 
+    imgPath: "images/logos/company-logo-2.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-3.png", 
+    imgPath: "images/logos/company-logo-3.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-4.png", 
+    imgPath: "images/logos/company-logo-4.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-5.png", 
+    imgPath: "images/logos/company-logo-5.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-6.png", 
+    imgPath: "images/logos/company-logo-6.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-7.png", 
+    imgPath: "images/logos/company-logo-7.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-8.png", 
+    imgPath: "images/logos/company-logo-8.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-9.png", 
+    imgPath: "images/logos/company-logo-9.png", 
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "images/logos/company-logo-10.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/leadership.png",
+    imgPath: "images/leadership.png",
     title: "Technology Leadership",
     desc: "Leading high-performing teams to deliver complex technology solutions in the financial sector.",
   },
   {
-    imgPath: "/images/devops.png",
+    imgPath: "images/devops.png",
     title: "DevOps Excellence",
     desc: "Implementing CI/CD pipelines and automation to accelerate delivery and improve reliability.",
   },
   {
-    imgPath: "/images/strategy.png",
+    imgPath: "images/strategy.png",
     title: "Strategic Vision",
     desc: "Aligning technology initiatives with business goals to drive innovation and growth.",
   },
@@ -93,34 +93,34 @@ const abilities = [
 const techStackImgs = [
   {
     name: "Cloud Platforms",
-    imgPath: "/images/logos/cloud-platforms.png",
+    imgPath: "images/logos/cloud-platforms.png",
   },
   {
     name: "Containerization",
-    imgPath: "/images/logos/containerization.png",
+    imgPath: "images/logos/containerization.png",
   },
   {
     name: "CI/CD",
-    imgPath: "/images/logos/cicd.png",
+    imgPath: "images/logos/cicd.png",
   },
   {
     name: "Infrastructure as Code",
-    imgPath: "/images/logos/iac.png",
+    imgPath: "images/logos/iac.png",
   },
   {
     name: "Monitoring",
-    imgPath: "/images/logos/monitoring.png",
+    imgPath: "images/logos/monitoring.png",
   },
   {
     name: "Security",
-    imgPath: "/images/logos/security.png",
+    imgPath: "images/logos/security.png",
   },
 ];
 
 const expCards = [
   {
-    imgPath: "/images/wells-fargo.jpg",
-    logoPath: "/images/wells-fargo-logo.png",
+    imgPath: "images/wells-fargo.jpg",
+    logoPath: "images/wells-fargo-logo.png",
     title: "Senior Technology Leader",
     company: "Wells Fargo",
     location: "Phoenix, AZ",
@@ -135,8 +135,8 @@ const expCards = [
     technologies: ["DevOps", "Cloud Architecture", "Automation", "Team Leadership", "Financial Systems"],
   },
   {
-    imgPath: "/images/tamm-financial.jpg",
-    logoPath: "/images/tamm-logo.png",
+    imgPath: "images/tamm-financial.jpg",
+    logoPath: "images/tamm-logo.png",
     title: "President",
     company: "Tamm Financial Corporation",
     location: "Mesa, AZ",
@@ -154,13 +154,13 @@ const expCards = [
 
 const testimonials = [
   {
-    imgPath: "/images/placeholder-profile.png", // Placeholder image
+    imgPath: "images/placeholder-profile.png", // Placeholder image
     name: "Satisfied Collaborator",
     mentions: "@Collaborator",
     desc: "Aristide is a visionary leader with a deep understanding of technology and its application to business challenges. His strategic insights were invaluable to our project's success."
   },
   {
-    imgPath: "/images/placeholder-profile.png", // Placeholder image
+    imgPath: "images/placeholder-profile.png", // Placeholder image
     name: "Former Colleague",
     mentions: "@ExCoWorker",
     desc: "Working with Aristide was a fantastic experience. His ability to motivate teams and drive results is exceptional. He fosters a positive and innovative work environment."
@@ -171,17 +171,17 @@ const testimonials = [
 const socialImgs = [
   {
     name: "LinkedIn",
-    imgPath: "/images/socials/linkedin.svg", // You'll need to add this image
+    imgPath: "images/socials/linkedin.svg", // You'll need to add this image
     url: "https://www.linkedin.com/in/aristidenorman/", // Placeholder URL
   },
   // {
   //   name: "GitHub",
-  //   imgPath: "/images/socials/github.svg", // Add if Aristide has a GitHub
+  //   imgPath: "images/socials/github.svg", // Add if Aristide has a GitHub
   //   url: "#",
   // },
   // {
   //   name: "Twitter",
-  //   imgPath: "/images/socials/twitter.svg", // Add if Aristide has a Twitter/X
+  //   imgPath: "images/socials/twitter.svg", // Add if Aristide has a Twitter/X
   //   url: "#",
   // },
   // Add more social links as needed

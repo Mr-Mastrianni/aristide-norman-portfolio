@@ -21,7 +21,7 @@ const About = () => {
             <div className="profile-card mb-4"> 
               <div className="profile-card-inner">
                 <div className="profile-card-front border-4 border-cyan-500 shadow-lg shadow-cyan-500/50 hover:scale-105 transition-transform duration-500">
-                  <img id="profile-img" src="/images/MyImage.png" alt="Aristide Norman - Open to Work" className="w-full h-full object-cover" />
+                  <img id="profile-img" src="images/MyImage.png" alt="Aristide Norman - Open to Work" className="w-full h-full object-cover" />
                 </div>
                 <div className="profile-card-back border-4 border-cyan-500 shadow-lg shadow-cyan-500/50">
                   <h3 className="text-xl mb-2">Aristide Norman</h3>
